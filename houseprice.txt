@@ -1,0 +1,23 @@
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (13)/housePrice.csv")
+print(df)
+
+df.info()
+
+df.shape()
+
+df.shape()
+
+sns.boxplot(y="Room",data=df)
+
+sns.countplot(x="Area",data=df)
+
+sns.countplot(x="Warehouse",data=df)
+
+sns.countplot(x="Elevator",data=df)
+sns.countplot(x="Warehouse",data=df)
+
+
